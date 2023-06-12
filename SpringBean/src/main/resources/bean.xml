@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="user" class="com.example.springbean.bean.User" scope="prototype">
+        <property name="name"  value="T2108E"/>
+        <property name="address" value="B16"/>
+        <property name="age" value="4"/>
+    </bean>
+    <bean id="department" class="com.example.springbean.bean.Department" autowire="constructor">
+        <property name="name" value="FPT Aptech"/>
+        <property name="address" value="so 8 Ton That Thuyet"/>
+<!--        <property name="user" ref="user"/>-->
+    </bean>
+
+</beans>
