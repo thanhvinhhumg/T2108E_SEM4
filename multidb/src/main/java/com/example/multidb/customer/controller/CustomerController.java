@@ -2,6 +2,7 @@ package com.example.multidb.customer.controller;
 
 import com.example.multidb.annotation.LoggingAnnotation;
 import com.example.multidb.customer.entity.Customer;
+import com.example.multidb.customer.projection.CustomerProjection;
 import com.example.multidb.customer.repository.CustomerRepository;
 import com.example.multidb.customer.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,4 +34,30 @@ public class CustomerController {
 //        return customerService.findByNameAndAddressAndAge(name, address, age);
         return customerService.findCustomerByNameAndAddressAndAge(name, address, age);
     }
+
+    @GetMapping("/findByPhoneAndName")
+    public List<Customer> findByPhoneAndName(@RequestParam(required = false) String name, @RequestParam(required = false) String phoneNumber){
+        return customerService.findByPhoneAndName(name, phoneNumber);
+    }
+
+    @GetMapping("/multiSelect")
+    public List<Object[]> multiSelect(@RequestParam(required = false) String name){
+        return customerService.multiSelect(name);
+    }
+
+    @GetMapping("/findByPhoneNumber")
+    public List<Customer> findByPhone(@RequestParam(required = false) String phoneNumber) {
+        return customerService.findByPhone(phoneNumber);
+    }
+
+    @GetMapping("/customer/info")
+    public List<CustomerProjection> customerInfo(@RequestParam(required = false) String phoneNumber) {
+        return customerService.getCustomerInfo();
+    }
+
+    @GetMapping("/findByName")
+    public List<Customer> findByName(@RequestParam(required = false) String name) {
+        return customerService.findByName(name);
+    }
+
 }
