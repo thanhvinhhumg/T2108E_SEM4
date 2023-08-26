@@ -68,7 +68,7 @@ class _Session34State extends State<Session34> {
                   hintStyle: TextStyle(color: Colors.grey),
                 ),
                 onChanged: (value){
-                  age = int.tryParse(value)!;
+                  age = value == null || value == "" ? 0 : int.tryParse(value)!;
                 },
               ),
               TextButton(
