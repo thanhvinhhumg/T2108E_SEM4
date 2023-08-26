@@ -1,0 +1,240 @@
+2023-06-27 20:12:53,130 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:53,138 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:53,162 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2023-06-27 20:12:53,162 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-06-27 20:12:53,728 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:53,728 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2023-06-27 20:12:53,728 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:53,728 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:53,929 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-57897-1687871573738-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:53,961 | INFO  | Listening for connections at: tcp://DESKTOP-PNA3F89:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 20:12:53,961 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 20:12:53,965 | INFO  | Listening for connections at: amqp://DESKTOP-PNA3F89:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 20:12:53,965 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 20:12:53,970 | INFO  | Listening for connections at: stomp://DESKTOP-PNA3F89:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 20:12:53,970 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 20:12:53,974 | INFO  | Listening for connections at: mqtt://DESKTOP-PNA3F89:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 20:12:53,974 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 20:12:53,979 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-27 20:12:54,010 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-27 20:12:54,050 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@2df95fed{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2023-06-27 20:12:54,100 | INFO  | Listening for connections at ws://DESKTOP-PNA3F89:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2023-06-27 20:12:54,101 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 20:12:54,101 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-57897-1687871573738-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:54,101 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 20:12:54,580 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-27 20:12:54,580 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-27 20:40:30,443 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1370787777-48
+2023-06-27 21:03:20,756 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-57897-1687871573738-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-20
+2023-06-27 21:03:20,759 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2023-06-27 21:03:20,761 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2023-06-27 21:03:20,762 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2023-06-27 21:03:20,763 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2023-06-27 21:03:20,799 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2023-06-27 21:03:20,802 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | Thread-20
+2023-06-27 21:03:20,803 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-20
+2023-06-27 21:03:20,803 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2023-06-27 21:03:20,803 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2023-06-27 21:03:20,803 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-20
+2023-06-27 21:03:20,821 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-57897-1687871573738-0:1) uptime 50 minutes | org.apache.activemq.broker.BrokerService | Thread-20
+2023-06-27 21:03:20,821 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-57897-1687871573738-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-20
+2023-06-27 22:47:17,571 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:17,576 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:17,603 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2023-06-27 22:47:17,603 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-06-27 22:47:17,660 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-06-27 22:47:17,908 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:17,908 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2023-06-27 22:47:17,908 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:17,908 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:18,085 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-51284-1687880837917-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:18,169 | INFO  | Listening for connections at: tcp://DESKTOP-PNA3F89:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 22:47:18,169 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 22:47:18,174 | INFO  | Listening for connections at: amqp://DESKTOP-PNA3F89:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 22:47:18,174 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 22:47:18,178 | INFO  | Listening for connections at: stomp://DESKTOP-PNA3F89:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 22:47:18,178 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 22:47:18,183 | INFO  | Listening for connections at: mqtt://DESKTOP-PNA3F89:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-27 22:47:18,183 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 22:47:18,189 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-27 22:47:18,235 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-27 22:47:18,283 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@2837930e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2023-06-27 22:47:18,361 | INFO  | Listening for connections at ws://DESKTOP-PNA3F89:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2023-06-27 22:47:18,361 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-27 22:47:18,362 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-51284-1687880837917-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:18,362 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-27 22:47:18,982 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-27 22:47:18,982 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-27 23:51:04,493 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-51284-1687880837917-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,498 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,499 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,499 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2023-06-27 23:51:04,500 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2023-06-27 23:51:04,500 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,501 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,595 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,619 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,620 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,622 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,622 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,664 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-51284-1687880837917-0:1) uptime 1 hour 3 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-06-27 23:51:04,664 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-51284-1687880837917-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-06-28 21:39:19,917 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:19,923 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:19,946 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2023-06-28 21:39:19,947 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-06-28 21:39:20,013 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-06-28 21:39:20,183 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:20,183 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2023-06-28 21:39:20,184 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:20,184 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:20,341 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-56179-1687963160197-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:20,420 | INFO  | Listening for connections at: tcp://DESKTOP-PNA3F89:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-28 21:39:20,420 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-28 21:39:20,424 | INFO  | Listening for connections at: amqp://DESKTOP-PNA3F89:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-28 21:39:20,425 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-28 21:39:20,428 | INFO  | Listening for connections at: stomp://DESKTOP-PNA3F89:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-28 21:39:20,429 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-28 21:39:20,433 | INFO  | Listening for connections at: mqtt://DESKTOP-PNA3F89:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-28 21:39:20,433 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-28 21:39:20,439 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-28 21:39:20,472 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-28 21:39:20,511 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@254c1ef9{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2023-06-28 21:39:20,566 | INFO  | Listening for connections at ws://DESKTOP-PNA3F89:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2023-06-28 21:39:20,566 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-28 21:39:20,566 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-56179-1687963160197-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:20,567 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-28 21:39:21,218 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-28 21:39:21,218 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-28 23:08:33,313 | WARN  | Transport Connection to: tcp://127.0.0.1:58347 failed: Channel was inactive for too (>30000) long: tcp://127.0.0.1:58347 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
+2023-06-28 23:08:33,331 | WARN  | Transport Connection to: tcp://127.0.0.1:58348 failed: Channel was inactive for too (>30000) long: tcp://127.0.0.1:58348 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
+2023-06-28 23:23:55,786 | WARN  | Transport Connection to: tcp://127.0.0.1:60286 failed: Channel was inactive for too (>30000) long: tcp://127.0.0.1:60286 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
+2023-06-28 23:23:55,818 | WARN  | Transport Connection to: tcp://127.0.0.1:60287 failed: Channel was inactive for too (>30000) long: tcp://127.0.0.1:60287 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
+2023-06-29 20:30:33,639 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:33,646 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:33,666 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2023-06-29 20:30:33,667 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-06-29 20:30:33,712 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-06-29 20:30:33,719 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-06-29 20:30:33,725 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-06-29 20:30:33,897 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:33,897 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2023-06-29 20:30:33,897 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:33,897 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:34,062 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-62488-1688045433914-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:34,212 | INFO  | Listening for connections at: tcp://DESKTOP-PNA3F89:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-29 20:30:34,213 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-29 20:30:34,217 | INFO  | Listening for connections at: amqp://DESKTOP-PNA3F89:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-29 20:30:34,217 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-29 20:30:34,220 | INFO  | Listening for connections at: stomp://DESKTOP-PNA3F89:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-29 20:30:34,221 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-29 20:30:34,226 | INFO  | Listening for connections at: mqtt://DESKTOP-PNA3F89:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-06-29 20:30:34,227 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-29 20:30:34,231 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-29 20:30:34,266 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-06-29 20:30:34,306 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3e5fc7da{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2023-06-29 20:30:34,354 | INFO  | Listening for connections at ws://DESKTOP-PNA3F89:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2023-06-29 20:30:34,355 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-06-29 20:30:34,355 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-62488-1688045433914-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:34,355 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-06-29 20:30:34,925 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-29 20:30:34,925 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-06-29 21:01:47,543 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-62488-1688045433914-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2023-06-29 21:01:47,547 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2023-06-29 21:01:47,548 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2023-06-29 21:01:47,548 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2023-06-29 21:01:47,548 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2023-06-29 21:01:47,550 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2023-06-29 21:01:47,550 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2023-06-29 21:01:47,601 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2023-06-29 21:01:47,607 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2023-06-29 21:01:47,607 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2023-06-29 21:01:47,607 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2023-06-29 21:01:47,607 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2023-06-29 21:01:47,627 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-62488-1688045433914-0:1) uptime 31 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2023-06-29 21:01:47,627 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-62488-1688045433914-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2023-07-01 13:03:33,595 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:33,603 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:33,628 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2023-07-01 13:03:33,629 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-07-01 13:03:33,696 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-07-01 13:03:33,937 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:33,938 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2023-07-01 13:03:33,938 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:33,938 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:34,094 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-59669-1688191413949-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:34,171 | INFO  | Listening for connections at: tcp://DESKTOP-PNA3F89:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-01 13:03:34,171 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-01 13:03:34,176 | INFO  | Listening for connections at: amqp://DESKTOP-PNA3F89:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-01 13:03:34,177 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-01 13:03:34,181 | INFO  | Listening for connections at: stomp://DESKTOP-PNA3F89:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-01 13:03:34,181 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-01 13:03:34,185 | INFO  | Listening for connections at: mqtt://DESKTOP-PNA3F89:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-01 13:03:34,185 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-01 13:03:34,191 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-07-01 13:03:34,232 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-07-01 13:03:34,280 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@5dde5403{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2023-07-01 13:03:34,342 | INFO  | Listening for connections at ws://DESKTOP-PNA3F89:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2023-07-01 13:03:34,342 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-01 13:03:34,342 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-59669-1688191413949-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:34,343 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-01 13:03:34,957 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-07-01 13:03:34,958 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-07-05 21:01:41,531 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:41,538 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:41,563 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2023-07-05 21:01:41,563 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-07-05 21:01:41,633 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-07-05 21:01:41,639 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-07-05 21:01:41,648 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-07-05 21:01:41,844 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:41,845 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2023-07-05 21:01:41,845 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:41,845 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:42,050 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-59677-1688565701866-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:42,162 | INFO  | Listening for connections at: tcp://DESKTOP-PNA3F89:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-05 21:01:42,163 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-05 21:01:42,168 | INFO  | Listening for connections at: amqp://DESKTOP-PNA3F89:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-05 21:01:42,169 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-05 21:01:42,173 | INFO  | Listening for connections at: stomp://DESKTOP-PNA3F89:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-05 21:01:42,173 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-05 21:01:42,176 | INFO  | Listening for connections at: mqtt://DESKTOP-PNA3F89:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-05 21:01:42,176 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-05 21:01:42,182 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-07-05 21:01:42,235 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-07-05 21:01:42,296 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@5cfd41a5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2023-07-05 21:01:42,368 | INFO  | Listening for connections at ws://DESKTOP-PNA3F89:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2023-07-05 21:01:42,369 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-05 21:01:42,369 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-59677-1688565701866-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:42,369 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-05 21:01:43,015 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-07-05 21:01:43,015 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-07-11 20:07:49,294 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:49,300 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:49,324 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2023-07-11 20:07:49,324 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-07-11 20:07:49,397 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-07-11 20:07:49,403 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2023-07-11 20:07:49,416 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-07-11 20:07:49,593 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:49,594 | INFO  | PListStore:[E:\FPTAptech\SEM4\T2108E\apache-activemq-5.18.1-bin\apache-activemq-5.18.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2023-07-11 20:07:49,594 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:49,594 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:49,757 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-53313-1689080869609-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:49,867 | INFO  | Listening for connections at: tcp://DESKTOP-PNA3F89:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-11 20:07:49,867 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-11 20:07:49,873 | INFO  | Listening for connections at: amqp://DESKTOP-PNA3F89:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-11 20:07:49,873 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-11 20:07:49,876 | INFO  | Listening for connections at: stomp://DESKTOP-PNA3F89:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-11 20:07:49,876 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-11 20:07:49,880 | INFO  | Listening for connections at: mqtt://DESKTOP-PNA3F89:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2023-07-11 20:07:49,880 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-11 20:07:49,885 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-07-11 20:07:49,923 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2023-07-11 20:07:49,969 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@18c1cc5e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2023-07-11 20:07:50,024 | INFO  | Listening for connections at ws://DESKTOP-PNA3F89:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2023-07-11 20:07:50,024 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2023-07-11 20:07:50,024 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:DESKTOP-PNA3F89-53313-1689080869609-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:50,024 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2023-07-11 20:07:50,559 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2023-07-11 20:07:50,559 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
