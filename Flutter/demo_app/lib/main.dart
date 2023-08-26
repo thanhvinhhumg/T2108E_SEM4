@@ -1,4 +1,5 @@
 import 'package:demo_app/pages/home_page.dart';
+import 'package:demo_app/pages/main_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'Home Page'),
+      home: MainPage(),
     );
   }
 }
