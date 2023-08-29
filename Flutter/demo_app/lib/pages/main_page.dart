@@ -1,5 +1,6 @@
 
 import 'package:demo_app/pages/home_page.dart';
+import 'package:demo_app/pages/session56.dart';
 import 'package:demo_app/pages/session_34.dart';
 import 'package:flutter/material.dart';
 
@@ -23,9 +24,7 @@ class _MainPageState extends State<MainPage> {
             children: [
               MyHomePage(title: "Home page"),
               Session34(),
-              Container(
-                child: Text("Profile Page"),
-              ),
+              Session56(),
             ],
           ),
           bottomNavigationBar: BottomNavigationBar(
